@@ -1,27 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Triangle Perimeter</title>
-
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-    <link rel="stylesheet" href="style.css" />
-
-    <script defer src="main.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-
   <body>
     <h1>Triangle Perimeter</h1>
     <hr />
-
     <h3>Perimeter = AB + AC + BC</h3>
     <p>
       <img src="img/triangle-vertices.PNG" alt="Triangle Image" width="400" />
     </p>
+    
+    <li>xA: <input id="x1" type="number"></li>
+    <li>yA: <input id="y1" type="number"></li>
+    <li>xB: <input id="x2" type="number"></li>
+    <li>yB: <input id="y2" type="number"></li>
+    <li>xC: <input id="x3" type="number"></li>
+    <li>yC: <input id="y3" type="number"></li>
 
-    <hr />
+   
+    <p><button id="calcBtn">Calculate</button></p>   
+    <h2>AB: <span id= "answer1">---</span></h2>
+    <h3>AC: <span id= "answer2">---</span></h3>
+    <h4>BC: <span id= "answer3">---</span></h4>
+    <h5>Perimeter: <span id = "answer4">---</span></h5>
+  
+    <!-- Load JavaScript -->
+    <script src="main.js"></script>
   </body>
 </html>
